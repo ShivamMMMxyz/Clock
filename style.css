@@ -76,7 +76,7 @@ border-radius: 50%;
 .me {
     position: fixed;
     top: 10px;
-    left: 10px; /* now on top-left */
+    right: 10px; /* now on top-left */
     background-color: rgb(58, 43, 43);
     color: antiquewhite;
     padding: 10px 15px;
@@ -97,7 +97,7 @@ border-radius: 50%;
 .about {
     position: fixed;
     top: 10px;
-    right: 10px; /* now on top-right */
+    left: 10px; /* now on top-right */
     background: linear-gradient(135deg, rgb(209, 68, 68), rgb(24, 24, 14));
     color: antiquewhite;
     padding: 10px 20px;
