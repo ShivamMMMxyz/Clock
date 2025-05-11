@@ -73,3 +73,46 @@ z-index: 0;
 border-radius: 50%;
 
 }
+.me {
+    position: fixed;
+    top: 10px;
+    left: 10px; /* now on top-left */
+    background-color: rgb(58, 43, 43);
+    color: antiquewhite;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease;
+    z-index: 999;
+}
+
+.me:hover {
+    background-color: rgb(80, 60, 60);
+    transform: scale(1.05);
+}
+
+.about {
+    position: fixed;
+    top: 10px;
+    right: 10px; /* now on top-right */
+    background: linear-gradient(135deg, rgb(209, 68, 68), rgb(24, 24, 14));
+    color: antiquewhite;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgb(209, 68, 68), 0 0 10px rgb(100, 20, 20);
+    box-shadow: 0 0 15px rgba(209, 68, 68, 0.6);
+    transition: all 0.3s ease;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.about:hover {
+    background: linear-gradient(135deg, rgb(24, 24, 14), rgb(209, 68, 68));
+    transform: scale(1.08) rotate(1deg);
+    box-shadow: 0 0 25px rgba(209, 68, 68, 0.8), 0 0 35px rgba(58, 43, 43, 0.7);
+}
